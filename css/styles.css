@@ -227,35 +227,6 @@ section.photography .genre-slider .photography-genre{
     width: 33%;
     text-align: center;
 }
-footer{
-    padding-top: 100px;
-    position:relative;
-    height: 80px;
-}
-footer div{
-    padding: 5% 0 3% 3%;
-    margin-bottom: 0;
-}
-footer img{
-    height: 80px;
-    width: 100%;
-    object-fit: cover;
-    overflow: hidden;
-    object-position: 50% 40%;
-}
-#footer-content{
-    position:absolute; 
-    top:60%;
-    left:30px;
-    padding: 0;
-    margin: 0;
-    z-index: 0;
-}
-footer p{
-    color:grey;;
-    padding: 0;
-    margin: 0;
-}
 #fullpage{
     display: none;
     position: fixed;
@@ -281,6 +252,7 @@ width: 100%;
 .slides{
     width: 100vw;
     height: 100vh;
+    display: none;
 }
 .slides img{
     max-height: 80vh;
@@ -291,7 +263,6 @@ width: 100%;
     display: flex;
     vertical-align: middle;
 }
-
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -346,4 +317,33 @@ width: 100%;
 
 .active, .dot:hover {
     background-color: #717171;
+}
+footer{
+    padding-top: 100px;
+    position:relative;
+    height: 80px;
+}
+footer div{
+    padding: 5% 0 3% 3%;
+    margin-bottom: 0;
+}
+footer img{
+    height: 80px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: 50% 40%;
+}
+#footer-content{
+    position:absolute; 
+    top:60%;
+    left:30px;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
+}
+footer p{
+    color:grey;;
+    padding: 0;
+    margin: 0;
 }
