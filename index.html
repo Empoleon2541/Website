@@ -97,20 +97,20 @@
                 <div class="genre-slider">
                     <div class="container">
                         <div class="photography-genre">
-                            <div class="sample-image">
-                                <img src="images\GTR.jpg" alt="Black Nissan GTR" style="cursor: pointer">
+                            <div class="sample-image automotivePhotography">
+                                <img src="images\Automotive\GTR.jpg" alt="Black Nissan GTR" style="cursor: pointer" class = "automotivePhotography">
                             </div>
                             <h4 class="genre-name">Automotive</h4>
                         </div>
                         <div class="photography-genre">
-                            <div class="sample-image">
-                                <img src="images\film coco.jpg" alt="film picture of a siamese cat" style="cursor: pointer">
+                            <div class="sample-image filmPhotography">
+                                <img src="images\Film\film coco.jpg" alt="film picture of a siamese cat" style="cursor: pointer" class = "filmPhotography">
                             </div>
                             <h4 class="genre-name">Film</h4>
                         </div>
                         <div class="photography-genre">
-                            <div class="sample-image">
-                                <img src="images\Aquaracer.jpg" alt="Blue Tag Heuer Aquaracer" style="cursor: pointer">
+                            <div class="sample-image productPhotography">
+                                <img src="images\Product\Aquaracer.jpg" alt="Blue Tag Heuer Aquaracer" style="cursor: pointer" class = "productPhotography">
                             </div>
                             <h4 class="genre-name">Product</h4>
                         </div>
@@ -126,7 +126,31 @@
                 <p>+63 936 496 5076</p>
             </div>
         </footer>
-        <div id="fullpage" onclick="this.style.display='none';"></div>
+        <div id="fullpage">
+            <div class="slideshow-container">
+            <div class="slides">
+              <img src="images\Automotive\GTR.jpg" alt="black Nissan GTR" class = "automotivePhotography">
+            </div>
+            <div class="slides">
+              <img src="images\Automotive\Racing.jpeg" alt="Porsche 911 photographed while Racing" class = "automotivePhotography">
+            </div>
+            <div class="slides">
+              <img src="images\Automotive\Isuzu.jpeg" alt="isuzu pickup truck at a car meet" class = "automotivePhotography">
+            </div>
+            <button id="sliderCloseButton">
+                <p>x</p>
+            </button>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+        </div>
+
+
+
+        
     </body>
     <script src="Javascript\script.js"></script>
     </html>
