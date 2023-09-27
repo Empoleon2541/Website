@@ -1,4 +1,4 @@
-// Javascript
+
 
 const imgs = document.querySelectorAll('.sample-image img');
 const cvBtn = document.getElementById('downloadCV');
