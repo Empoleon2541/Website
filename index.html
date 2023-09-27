@@ -20,50 +20,113 @@
                 <nav>
                     <ul>
                         <li><a href="https://www.linkedin.com/in/frances-dominic-306492189/" target="_blank">LinkedIn</a></li>
-                        <li><a href="CV.pdf" target="_blank">CV</a></li>
+                        <li><a href="https://github.com/Empoleon2541" target="_blank">Github Page</a></li>
                         <li><a href="https://www.instagram.com/banaagnico/" target="_blank">Photography Portfolio</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <section class="hero">
-            <section class="hero-text">
-                <p1>
-                    Career Shifter
-                </p1>
-                <p2>
-                    Former Professional Electronics Engineer
-                    <br>Current Software Engineering Trainee
-                    <br>Long-time Amateur Photographer
-                </p2>
+        <div class="content">
+            <section class="hero">
+                <section class="hero-text">
+                    <h1>
+                        Career Shifter
+                    </h1>
+                    <p1>
+                        Former Professional Electronics Engineer
+                        <br>Current Software Engineering Trainee
+                        <br>Long-time Amateur Photographer
+                    </p1>
+                    <button id="downloadCV" style="cursor: pointer">Go to CV</button>
+                </section>
+                <section class="hero-image">
+                    <img src="images\Hero1.jpg" alt="1:18 Mclaren P1 picture">
+                </section>
             </section>
-            <section class="hero-image">
-                <img src="images\Hero1.jpg" alt="1:18 Mclaren P1 picture">
+            <section class="work">
+                <h2 class="employment">
+                    Employment History
+                </h2>
+                <section class="employment-history">
+                    <ul class="date">
+                        <li class="date-entry">06/2022 - 08/2022</li>
+                        <li class="date-entry">09/2022 - 08/2023</li>
+                        <li class="date-entry">08/2023 - Present</li>
+                    </ul>
+                    <ul class="experience">
+                        <li class="company-entry">Invix A.I.</li>
+                        <li class="company-entry">Dyson Electronics</li>
+                        <li class="company-entry">White Cloak Technologies</li>
+                    </ul>
+                    <class class="role">
+                        <li class="role-entry"><strong>Software Engineer</strong></li>
+                        <li class="role-entry"><strong>Electronics Engineer</strong></li>
+                        <li class="role-entry"><strong>Software Engineering Trainee</strong></li>
+                    </class>
+                </section>
             </section>
-        </section>
-        <section class="work">
-            <h2 class="employment">
-                Employment History
-            </h2>
-            <section class="employment-history">
-                <ul class="date">
-                    <li class="date-entry">06/2022 - 08/2022</li>
-                    <li class="date-entry">09/2022 - 08/2023</li>
-                    <li class="date-entry">08/2023 - Present</li>
-                </ul>
-                <ul class="experience">
-                    <li class="company-entry">Invix A.I. - <strong>Software Engineer</strong></li>
-                    <li class="company-entry">Dyson Electronics - <strong>Electronics Engineer</strong></li>
-                    <li class="company-entry">White Cloak Technologies - <strong>Software Engineering Trainee</strong></li>
-                </ul>
+            <section class="technical-skills">
+                <h2 class="tech-stack">
+                    Technical Skills
+                </h2>
+                <section class="main-stack">
+                    <h3>Main Technical Skills</h3>
+                    <div class="techLogo">
+                        <img src = "images\tech stack\main\python.png" alt="python logo">
+                        <img src = "images\tech stack\main\html.png" alt="html logo">
+                        <img src = "images\tech stack\main\css.png" alt="css logo">
+                        <img src = "images\tech stack\main\Javascript.png" alt="javascipt logo">
+                        <img src = "images\tech stack\main\Git.png" alt="git logo">
+                    </div>
+                </section>
+                <section class="extra-stack">
+                    <h3>Other Technical Skills</h3>
+                    <div class="techLogo">
+                        <img src = "images\tech stack\extra\Arduino.png" alt="Arduino logo">
+                        <img src = "images\tech stack\extra\C++.png" alt="C++ logo">
+                        <img src = "images\tech stack\extra\CAD.png" alt="CAD logo">
+                        <img src = "images\tech stack\extra\Logism.png" alt="Logism logo">
+                        <img src = "images\tech stack\extra\matlab.png" alt="matlab logo">
+                        <img src = "images\tech stack\extra\Pandas.png" alt="Pandas logo">
+                        <img src = "images\tech stack\extra\postman.png" alt="postman logo">
+                    </div>
+                </section>
             </section>
-        </section>
+            <section class="photography">
+                <h3>Photography Genres</h3>
+                <div class="genre-slider">
+                    <div class="container">
+                        <div class="photography-genre">
+                            <div class="sample-image">
+                                <img src="images\GTR.jpg" alt="Black Nissan GTR" style="cursor: pointer">
+                            </div>
+                            <h4 class="genre-name">Automotive</h4>
+                        </div>
+                        <div class="photography-genre">
+                            <div class="sample-image">
+                                <img src="images\film coco.jpg" alt="film picture of a siamese cat" style="cursor: pointer">
+                            </div>
+                            <h4 class="genre-name">Film</h4>
+                        </div>
+                        <div class="photography-genre">
+                            <div class="sample-image">
+                                <img src="images\Aquaracer.jpg" alt="Blue Tag Heuer Aquaracer" style="cursor: pointer">
+                            </div>
+                            <h4 class="genre-name">Product</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
         <footer>
-            <section class="time-banner">
+            <img src="images\Watch.jpg" alt="Tissot Tradition dress watch macro">
+            <div id="footer-content">
                 <p>Frances Dominic C. Banaag</p>
                 <p>fcbanaag@alum.up.edu.ph</p>
                 <p>+63 936 496 5076</p>
-            </section>
+            </div>
         </footer>
+        <div id="fullpage" onclick="this.style.display='none';"></div>
     </body>
-</html>
+    <script src="Javascript\script.js"></script>
+    </html>

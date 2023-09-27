@@ -1,0 +1,57 @@
+{
+    "techStackLogos":[
+        {
+            "mainStack":
+            [
+            {
+                "technology":"Python",
+                "path":"../images/tech stack/main/python.png"
+            },
+            {
+                "technology":"css",
+                "path":"../images/tech stack/main/css.png"
+            },
+            {
+                "technology":"html",
+                "path":"../images/tech stack/main/html.png"
+            },
+            {
+                "technology":"javascript",
+                "path":"../images/tech stack/main/Javascript.png"
+            },
+            {
+                "technology":"git",
+                "path":"../images/tech stack/main/Git.png"
+            }
+        ],
+
+            "extraStack":
+            [
+            {
+                "technology":"pandas",
+                "path":"../images/tech stack/main/Pandas.png"
+            },
+            {
+                "technology":"c++",
+                "path":"../images/tech stack/main/C++.png"
+            },
+            {
+                "technology":"vbasic",
+                "path":"../images/tech stack/main/Vbasic.png"
+            },
+            {
+                "technology":"matlab",
+                "path":"../images/tech stack/main/matlab.png"
+            },
+            {
+                "technology":"logism",
+                "path":"../images/tech stack/main/Logism.png"
+            },
+            {
+                "technology":"cad",
+                "path":"../images/tech stack/main/CAD.png"
+            }
+        ]
+        }
+    ]
+}
